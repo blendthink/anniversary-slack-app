@@ -7,9 +7,9 @@ import GreetingWorkflow from "./workflows/greeting_workflow.ts";
  * https://api.slack.com/future/manifest
  */
 export default Manifest({
-  name: "anniversary-slack-app",
+  name: "Anniversary",
   description:
-    "A sample that demonstrates using a function, workflow and trigger to send a greeting",
+    "Allows you to register new anniversary, show the number of days elapsed since a specific anniversary, and show the number of days until a future anniversary",
   icon: "assets/icon.png",
   workflows: [GreetingWorkflow],
   outgoingDomains: [],
